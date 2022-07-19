@@ -35,7 +35,7 @@ li{
     visibility: hidden;
 }
 .search input{
-    background: url('./images/search.svg');
+    background: url('../images/search.svg');
     background-repeat: no-repeat;
     background-position: left ;
     padding: .75rem;
@@ -46,7 +46,6 @@ li{
     align-self: center;
     background-color: rgb(239, 239, 239);
     width: 27vw;
-
 }
 .icons{
     display: flex;
@@ -82,7 +81,6 @@ li{
 .user-contant{
     flex-grow: 2;
 }
-
 @media (min-width: 640px) {
 .search{
     display: flex;
@@ -94,5 +92,5 @@ li{
     .icons{
         display: none;
     }
-    
 }
+
