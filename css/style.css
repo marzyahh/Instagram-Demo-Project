@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+.nav{
+    border-bottom: 1.2px solid gray;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.one{
+    width: 10vw;
+    margin-top: .5rem;
+}
+.one img{
+    margin-left: -10vw;
+}
+.two{
+    display: flex;
+    width: 70vw;
+}
+.search{
+    visibility: hidden;
+}
+.search input{
+    background: url('./images/search.svg');
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding: .75rem;
+    padding-left: 3rem;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px ;
+    outline: none;
+    align-self: center;
+    background-color: rgb(239, 239, 239);
+    width: 27vw;
+
+}
+.icons{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.icons div{
+    display: inline;
+    padding-right: 1.2rem;
+
+}
+.profile{
+   width: 3rem;
+   height: 3rem;
+   border-radius: 30px;
+   border: 1.5px solid gray;  
+}
+.user-information{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.profile-image{
+    flex-grow: 2;
+}
+.profile-image img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100px;
+}
+.user-contant{
+    flex-grow: 2;
+}
+
+@media (min-width: 640px) {
+.search{
+    display: flex;
+    visibility: visible;
+    border: none;
+ }
+}
+@media (max-width: 250px) {
+    .icons{
+        display: none;
+    }
+    
+}
